@@ -10,13 +10,13 @@ class Resource {
         };
 
         // Object to store loaded images
-        this.images = {};
+        this.sprites = {};
 
         // Load each image
         Object.keys(this.toLoad).forEach(key => {
             const img = new Image();
             img.src = this.toLoad[key];
-            this.images[key] = {
+            this.sprites[key] = {
                 image: img,
                 isLoaded: false
             }
