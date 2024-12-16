@@ -1,3 +1,5 @@
+import { GameObject, Sprite, Vector2, Input, Animations, FrameIndexPattern, GameLoop } from "../../src";
+
 class GameEngine {
     constructor(canvasId, width, height) {
       this.canvas = document.getElementById(canvasId);
