@@ -4,7 +4,7 @@ import { camera } from "../../camera.js";
 import { inventory } from "../../inventory.js";
 import { events } from "../../events.js";
 
-const canvas = document.querySelector("#game-canvas");
+const canvas = document.querySelector("#pokemon-cafe");
 const ctx = canvas.getContext("2d");
 
 const mainScene = new GameObject({
