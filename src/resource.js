@@ -2,11 +2,11 @@ class Resource {
     constructor() {
         // Object containing paths to image resource
         this.toLoad = {
-            sky: "/sprites/sky.png",
-            ground: "sprites/ground.png",
-            hero: "/sprites/hero-sheet.png",
-            shadow: "/sprites/shadow.png",
-            espeon: "/sprites.espeon.png",
+            sky: "../../sprites/sky.png",
+            ground: "../../sprites/ground.png",
+            hero: "../../sprites/hero-sheet.png",
+            shadow: "../../sprites/shadow.png",
+            espeon: "../../sprites.espeon.png",
         };
 
         // Object to store loaded images
