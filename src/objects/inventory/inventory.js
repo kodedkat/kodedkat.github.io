@@ -18,7 +18,7 @@ export class Inventory extends GameObject {
             this.nextId += 1;
             this.items.push({
                 id: this.nextId,
-                image: resource.images.pokemon
+                image: resource.sprites.espeon
             });
             this.renderInventory();
         });
